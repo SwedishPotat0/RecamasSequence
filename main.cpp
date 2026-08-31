@@ -31,7 +31,7 @@ int main(int argc, char* argv[]) {
 	}
 	else {
 		std::ofstream write(fileN);
-		for (const auto& n : numbers) { write << n << ' '; }
+		for (const auto& n : numbers) { write << n << '\n'; }
 	}
 	return 0;	
 }
